@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: component-3-location
+spec:
+  type: url
+  targets:
+    - ./sub-1/catalog-info.yaml
+    - ./sub-2/catalog-info.yaml
+    - ./sub-3/catalog-info.yaml
+    - ./sub-4/catalog-info.yaml
+    - ./sub-5/catalog-info.yaml
